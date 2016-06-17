@@ -75,23 +75,23 @@ asr "$ORIGIN_FI/?search=kallio&lang=en&city=all" \
     "$SM_EN/search?q=kallio&municipality=all"
 
 # theme
-asr "$ORIGIN_FI/?theme=8511+8571" \
-    "$SM_FI/unit?services=8511,8571"
+asr "$ORIGIN_FI/?theme=8551+8571" \
+    "$SM_FI/unit?services=8551,8571"
 
-asr "$ORIGIN_FI/?theme=8511+8571&lang=se" \
-    "$SM_SV/unit?services=8511,8571"
+asr "$ORIGIN_FI/?theme=8551+8571&lang=se" \
+    "$SM_SV/unit?services=8551,8571"
 
-asr "$ORIGIN_FI/?lang=en&theme=8511+8571" \
-    "$SM_EN/unit?services=8511,8571"
+asr "$ORIGIN_FI/?lang=en&theme=8551+8571" \
+    "$SM_EN/unit?services=8551,8571"
 
 # theme + search
 # TODO: implement parameter in servicemap UI
 
-asr "$ORIGIN_FI/?theme=8511+8571&search=puisto" \
+asr "$ORIGIN_FI/?theme=8551+8571&search=puisto" \
    "$SM_FI/search?q=puisto&services=8551,8571"
-asr "$ORIGIN_FI/?theme=8511+8571&lang=se&search=parken" \
+asr "$ORIGIN_FI/?theme=8551+8571&lang=se&search=parken" \
    "$SM_SV/search?q=parken&services=8551,8571"
-asr "$ORIGIN_FI/?lang=en&theme=8511+8571&search=park" \
+asr "$ORIGIN_FI/?lang=en&theme=8551+8571&search=park" \
    "$SM_EN/search?q=park&services=8551,8571"
 
 # distance + address
