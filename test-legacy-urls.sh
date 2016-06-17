@@ -1,7 +1,7 @@
 source ./assert-redirect.sh
 
 ORIGIN_BASEURL=localhost:9001/rdr
-ORIGIN_FI=$ORIGIN_BASEURL/palvelukartta
+ORIGIN_FI=$ORIGIN_BASEURL
 
 SM_FI=palvelukartta.hel.fi
 SM_SV=servicekarta.hel.fi
